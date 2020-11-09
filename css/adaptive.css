@@ -1,0 +1,154 @@
+@media (max-width: 1000px) {
+  .services__content--item {
+    width: 31%;
+  }
+}
+
+@media (max-width: 800px) {
+  .header__nav {
+    display: none;
+  }
+  .burger__icon {
+    display: block;
+  }
+  .hero__title {
+    font-size: 42px;
+  }
+  .hero__subtitle {
+    font-size: 17px;
+  }
+  .portfolio__item {
+    width: 47%;
+  }
+  .contact__inf {
+    padding: 0 70px;
+  }
+}
+
+@media (max-width: 730px) {
+  .services__content--item {
+    width: 45%;
+  }
+}
+
+@media (max-width: 730px) {
+  .price__content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .price__content--item {
+    width: 80%;
+    margin-bottom: 25px;
+  }
+  .team__content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .team__content--item {
+    width: 70%;
+    margin-bottom: 15px;
+  }
+  .blog-content__item {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+  .blog-content__item:last-child {
+    margin-bottom: 0;
+  }
+  .blog__button {
+    margin-top: 30px;
+  }
+  .blog-content__item--item {
+    width: 80%;
+  }
+  .blog-content__img {
+    margin-bottom: 10px;
+  }
+  .blog-content__text {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 625px) {
+  .about__content {
+    margin-top: 45px;
+  }
+  .about__content--item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .tabs--item {
+    width: 50%;
+    margin-bottom: 10px;
+  }
+  .contact__inf {
+    padding: 0 30px;
+  }
+  .contact__form {
+    width: 100%;
+  }
+  .contact__textarea {
+    width: 100%;
+  }
+}
+
+@media (max-width: 530px) {
+  .contact__input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .contact__input:last-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero__title {
+    font-size: 36px;
+  }
+  .services__content {
+    margin-top: 47px;
+  }
+  .services__content--item {
+    width: 100%;
+  }
+  .portfolio__item {
+    width: 100%;
+  }
+  .team__content--item {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .header__buttons--item {
+    width: 100%;
+  }
+  .header__buttons--item:last-child {
+    margin-top: 20px;
+  }
+  .contact__inf--img {
+    width: 100%;
+  }
+  .contact__inf--text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .tabs--item {
+    width: 100%;
+    margin-bottom: 7px;
+  }
+  .contact__inf--text {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=adaptive.css.map */
